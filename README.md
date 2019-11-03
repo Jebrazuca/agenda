@@ -5,14 +5,14 @@
 - [Projeto Agenda](#projeto-agenda)
 - [Próximos Projetos](#prximos-projetos)
 
-#Olá Mundo
+# Olá Mundo
 Primeira utilização e visualização com Python Django.
 https://github.com/Jebrazuca/OlaMundo_Django
 
-#Projeto Agenda
+# Projeto Agenda
 Projeto Realizado utilizando Django para criação de agenda com controle de usuário.
 
-#Próximos Projetos
+# Próximos Projetos
 Em desenvolvimento... 
 
 
