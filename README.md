@@ -7,6 +7,7 @@
 
 # Olá Mundo
 Primeira utilização e visualização com Python Django.
+
 https://github.com/Jebrazuca/OlaMundo_Django
 
 # Projeto Agenda
@@ -16,4 +17,5 @@ Projeto Realizado utilizando Django para criação de agenda com controle de usu
 Em desenvolvimento... 
 
 
-Author: Jefferson da Silva
+<br><br>
+<i><p> Author: Jefferson da Silva </p></i>
