@@ -1,0 +1,74 @@
+ANOTAÇÔES Django
+
+
+- Instalação Bibliotecas
+pip install (nome da biblioteca) ex. (pip install django
+
+
+- Criação de uma nova virtualenv
+python -m venv <caminho de onde será criado>
+
+- Para ativar a virtual env
+<caminho da virtualenv> .\Scripts\activate
+Ex. C:\Users\Jefferson\PycharmProjects\dev_django\Scripts\activate
+
+
+- Criando um projeto Django
+django-admin startproject <nome_do_projeto>
+
+
+- Criando um novo app
+django-admin startapp <nome_do_app>
+
+
+- Criar as tabelas basicas do Django
+python manage.py migrate
+
+
+- Criando usuário admin
+python manage.py createsuperuser --username <nome_usuario> 
+
+
+
+*** Criação de tabelas ficam no modulo models.py
+
+
+data_criacao = models.DateTimeField(auto_now=True) (autonow inclui automaticamente a hora atual no momento da criação)
+
+
+### 
+QUando realizado um migrate, ele já realiza a alteração no banco de dados
+
+
+
+- Cria evento para ser realizado a criação das tablas no banco
+python manage.py makemigrations <nome_do_projeto>
+
+
+
+- Mostra os comandos que serão executados para criação da tabela no banco
+python manage.py sqlmigrate <nome_do_Projeto> <nome_do_evento_criado>
+
+
+
+
+- Criação da tabela a partir da evento criado
+python manage.py migrate <nome_do_projeto> <nome_do_evento_criado>
+
+
+
+##
+usuario = models.ForeignKey(User, on_delete=models.CASCADE)
+O argumento on_delete.cascade, quando deleta o usuário exclui todos os eventos deste usuário
+
+
+
+###
+No HTML, quando é inserido duas chavas ({{}}) é informado que vai imprimir alguma informação do template.
+
+{% - Utilizar os comandos do Python
+
+
+
+
+
